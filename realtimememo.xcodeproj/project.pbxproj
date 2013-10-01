@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35B3625517FAB64A00D5E87C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B3625417FAB64A00D5E87C /* Foundation.framework */; };
+		35B3625717FAB64A00D5E87C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B3625617FAB64A00D5E87C /* CoreGraphics.framework */; };
+		35B3625917FAB64A00D5E87C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B3625817FAB64A00D5E87C /* UIKit.framework */; };
+		35B3625F17FAB64A00D5E87C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35B3625D17FAB64A00D5E87C /* InfoPlist.strings */; };
+		35B3626117FAB64A00D5E87C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3626017FAB64A00D5E87C /* main.m */; };
+		35B3626517FAB64A00D5E87C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3626417FAB64A00D5E87C /* AppDelegate.m */; };
+		35B3626717FAB64A00D5E87C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B3626617FAB64A00D5E87C /* Images.xcassets */; };
+		35B3626E17FAB64B00D5E87C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B3626D17FAB64B00D5E87C /* XCTest.framework */; };
+		35B3626F17FAB64B00D5E87C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B3625417FAB64A00D5E87C /* Foundation.framework */; };
+		35B3627017FAB64B00D5E87C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B3625817FAB64A00D5E87C /* UIKit.framework */; };
+		35B3627817FAB64B00D5E87C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35B3627617FAB64B00D5E87C /* InfoPlist.strings */; };
+		35B3627A17FAB64B00D5E87C /* realtimememoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B3627917FAB64B00D5E87C /* realtimememoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35B3627117FAB64B00D5E87C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35B3624917FAB64A00D5E87C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35B3625017FAB64A00D5E87C;
+			remoteInfo = realtimememo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35B3625117FAB64A00D5E87C /* realtimememo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realtimememo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B3625417FAB64A00D5E87C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35B3625617FAB64A00D5E87C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35B3625817FAB64A00D5E87C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35B3625C17FAB64A00D5E87C /* realtimememo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "realtimememo-Info.plist"; sourceTree = "<group>"; };
+		35B3625E17FAB64A00D5E87C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35B3626017FAB64A00D5E87C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35B3626217FAB64A00D5E87C /* realtimememo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "realtimememo-Prefix.pch"; sourceTree = "<group>"; };
+		35B3626317FAB64A00D5E87C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35B3626417FAB64A00D5E87C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35B3626617FAB64A00D5E87C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		35B3626C17FAB64B00D5E87C /* realtimememoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realtimememoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B3626D17FAB64B00D5E87C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		35B3627517FAB64B00D5E87C /* realtimememoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "realtimememoTests-Info.plist"; sourceTree = "<group>"; };
+		35B3627717FAB64B00D5E87C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35B3627917FAB64B00D5E87C /* realtimememoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = realtimememoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35B3624E17FAB64A00D5E87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B3625717FAB64A00D5E87C /* CoreGraphics.framework in Frameworks */,
+				35B3625917FAB64A00D5E87C /* UIKit.framework in Frameworks */,
+				35B3625517FAB64A00D5E87C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B3626917FAB64B00D5E87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B3626E17FAB64B00D5E87C /* XCTest.framework in Frameworks */,
+				35B3627017FAB64B00D5E87C /* UIKit.framework in Frameworks */,
+				35B3626F17FAB64B00D5E87C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35B3624817FAB64A00D5E87C = {
+			isa = PBXGroup;
+			children = (
+				35B3625A17FAB64A00D5E87C /* realtimememo */,
+				35B3627317FAB64B00D5E87C /* realtimememoTests */,
+				35B3625317FAB64A00D5E87C /* Frameworks */,
+				35B3625217FAB64A00D5E87C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35B3625217FAB64A00D5E87C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35B3625117FAB64A00D5E87C /* realtimememo.app */,
+				35B3626C17FAB64B00D5E87C /* realtimememoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35B3625317FAB64A00D5E87C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35B3625417FAB64A00D5E87C /* Foundation.framework */,
+				35B3625617FAB64A00D5E87C /* CoreGraphics.framework */,
+				35B3625817FAB64A00D5E87C /* UIKit.framework */,
+				35B3626D17FAB64B00D5E87C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35B3625A17FAB64A00D5E87C /* realtimememo */ = {
+			isa = PBXGroup;
+			children = (
+				35B3626317FAB64A00D5E87C /* AppDelegate.h */,
+				35B3626417FAB64A00D5E87C /* AppDelegate.m */,
+				35B3626617FAB64A00D5E87C /* Images.xcassets */,
+				35B3625B17FAB64A00D5E87C /* Supporting Files */,
+			);
+			path = realtimememo;
+			sourceTree = "<group>";
+		};
+		35B3625B17FAB64A00D5E87C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35B3625C17FAB64A00D5E87C /* realtimememo-Info.plist */,
+				35B3625D17FAB64A00D5E87C /* InfoPlist.strings */,
+				35B3626017FAB64A00D5E87C /* main.m */,
+				35B3626217FAB64A00D5E87C /* realtimememo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35B3627317FAB64B00D5E87C /* realtimememoTests */ = {
+			isa = PBXGroup;
+			children = (
+				35B3627917FAB64B00D5E87C /* realtimememoTests.m */,
+				35B3627417FAB64B00D5E87C /* Supporting Files */,
+			);
+			path = realtimememoTests;
+			sourceTree = "<group>";
+		};
+		35B3627417FAB64B00D5E87C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35B3627517FAB64B00D5E87C /* realtimememoTests-Info.plist */,
+				35B3627617FAB64B00D5E87C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35B3625017FAB64A00D5E87C /* realtimememo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35B3627D17FAB64B00D5E87C /* Build configuration list for PBXNativeTarget "realtimememo" */;
+			buildPhases = (
+				35B3624D17FAB64A00D5E87C /* Sources */,
+				35B3624E17FAB64A00D5E87C /* Frameworks */,
+				35B3624F17FAB64A00D5E87C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = realtimememo;
+			productName = realtimememo;
+			productReference = 35B3625117FAB64A00D5E87C /* realtimememo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35B3626B17FAB64B00D5E87C /* realtimememoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35B3628017FAB64B00D5E87C /* Build configuration list for PBXNativeTarget "realtimememoTests" */;
+			buildPhases = (
+				35B3626817FAB64B00D5E87C /* Sources */,
+				35B3626917FAB64B00D5E87C /* Frameworks */,
+				35B3626A17FAB64B00D5E87C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35B3627217FAB64B00D5E87C /* PBXTargetDependency */,
+			);
+			name = realtimememoTests;
+			productName = realtimememoTests;
+			productReference = 35B3626C17FAB64B00D5E87C /* realtimememoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35B3624917FAB64A00D5E87C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "da-sumida";
+				TargetAttributes = {
+					35B3626B17FAB64B00D5E87C = {
+						TestTargetID = 35B3625017FAB64A00D5E87C;
+					};
+				};
+			};
+			buildConfigurationList = 35B3624C17FAB64A00D5E87C /* Build configuration list for PBXProject "realtimememo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35B3624817FAB64A00D5E87C;
+			productRefGroup = 35B3625217FAB64A00D5E87C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35B3625017FAB64A00D5E87C /* realtimememo */,
+				35B3626B17FAB64B00D5E87C /* realtimememoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35B3624F17FAB64A00D5E87C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B3625F17FAB64A00D5E87C /* InfoPlist.strings in Resources */,
+				35B3626717FAB64A00D5E87C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B3626A17FAB64B00D5E87C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B3627817FAB64B00D5E87C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35B3624D17FAB64A00D5E87C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B3626517FAB64A00D5E87C /* AppDelegate.m in Sources */,
+				35B3626117FAB64A00D5E87C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B3626817FAB64B00D5E87C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B3627A17FAB64B00D5E87C /* realtimememoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35B3627217FAB64B00D5E87C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35B3625017FAB64A00D5E87C /* realtimememo */;
+			targetProxy = 35B3627117FAB64B00D5E87C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35B3625D17FAB64A00D5E87C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35B3625E17FAB64A00D5E87C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35B3627617FAB64B00D5E87C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35B3627717FAB64B00D5E87C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35B3627B17FAB64B00D5E87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35B3627C17FAB64B00D5E87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35B3627E17FAB64B00D5E87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "realtimememo/realtimememo-Prefix.pch";
+				INFOPLIST_FILE = "realtimememo/realtimememo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35B3627F17FAB64B00D5E87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "realtimememo/realtimememo-Prefix.pch";
+				INFOPLIST_FILE = "realtimememo/realtimememo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		35B3628117FAB64B00D5E87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/realtimememo.app/realtimememo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "realtimememo/realtimememo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "realtimememoTests/realtimememoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		35B3628217FAB64B00D5E87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/realtimememo.app/realtimememo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "realtimememo/realtimememo-Prefix.pch";
+				INFOPLIST_FILE = "realtimememoTests/realtimememoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35B3624C17FAB64A00D5E87C /* Build configuration list for PBXProject "realtimememo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B3627B17FAB64B00D5E87C /* Debug */,
+				35B3627C17FAB64B00D5E87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35B3627D17FAB64B00D5E87C /* Build configuration list for PBXNativeTarget "realtimememo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B3627E17FAB64B00D5E87C /* Debug */,
+				35B3627F17FAB64B00D5E87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		35B3628017FAB64B00D5E87C /* Build configuration list for PBXNativeTarget "realtimememoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B3628117FAB64B00D5E87C /* Debug */,
+				35B3628217FAB64B00D5E87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35B3624917FAB64A00D5E87C /* Project object */;
+}
